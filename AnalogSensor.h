@@ -3,6 +3,9 @@
 
 #include <Arduino.h>
 
+//Comentario para mostrar el commit
+
+
 class AnalogSensor {
 public:
   explicit AnalogSensor(uint8_t pin, uint8_t samples = 10);
