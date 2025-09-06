@@ -1,7 +1,8 @@
 #ifndef ANALOGSENSOR_H
 #define ANALOGSENSOR_H
 
-#include <Arduino.h>
+#include <Arduino.h> 
+// angy rivera
 
 //Comentario para mostrar el commit
 
