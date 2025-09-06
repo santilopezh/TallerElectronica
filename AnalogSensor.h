@@ -8,6 +8,8 @@
 
 //Santiago Lopez Hernandez
 
+//2420231060
+
 class AnalogSensor {
 public:
   explicit AnalogSensor(uint8_t pin, uint8_t samples = 10);
