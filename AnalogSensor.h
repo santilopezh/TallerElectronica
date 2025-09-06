@@ -5,13 +5,14 @@
 
 //Comentario para mostrar el commit
 
+//Santiago Lopez Hernandez
 
 class AnalogSensor {
 public:
   explicit AnalogSensor(uint8_t pin, uint8_t samples = 10);
   void begin();                   // inicialización (si la necesitas)
   int  readRaw() const;           // lectura cruda 0..4095
-  int  readAverage() const;       // promedio de N muestras
+  
   float toVoltage(int raw) const; // convierte a voltaje (0..3.3V aprox)
   void printStatus(const String& label); // sin retorno, con argumento
 
